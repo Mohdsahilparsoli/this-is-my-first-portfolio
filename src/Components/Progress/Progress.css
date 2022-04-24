@@ -1,0 +1,8 @@
+
+span{
+color: var(--black);
+text-transform: capitalize;
+font-size: 1.2rem;
+line-height: 2;
+font-family: var(--secondry-font);
+}

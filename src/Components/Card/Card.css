@@ -1,0 +1,42 @@
+
+.card{
+   margin-top: 4rem;
+    width: 300px;
+    height: 380px;
+    transition: 0.3s all linear;
+    
+}
+.card .card-title{
+    font-family: var(--primary-font);
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--black);
+
+}
+
+.card .card-text{
+    color: var(--gray);
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.card img {
+    transform: scale(0.2);
+    margin-top: -6rem;
+}
+
+.card .card-body{
+    margin-top: -5rem;
+}
+
+
+.btn2{
+display: flex;
+justify-content: center;}

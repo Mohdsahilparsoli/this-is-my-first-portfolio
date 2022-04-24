@@ -1,0 +1,12 @@
+.Home{
+    margin-top: 12rem;
+}
+.center p {
+font-size: 14px;
+font-weight: 100;;
+}
+.center h1 span{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: bold;
+}

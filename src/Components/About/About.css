@@ -1,0 +1,140 @@
+
+.about{
+    margin-top: 12rem;
+}
+
+
+.imgsrc{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.imgsrc img{
+    width: 100%;
+    height: 100%;
+position: absolute;
+left: 50%;        
+    border-radius: 50%;
+    transform: translateY(-5rem);
+   
+}
+
+.profile{
+    width: 35vw;
+    height: 80vh;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.center{
+    width: 100%;
+    height: 50%;
+    margin-top: -100px;
+
+}
+#name{
+    color: white;
+    font-weight: bold;
+}
+#title{
+    color: white;
+    font-weight: 100;
+
+}
+.icons a{
+  color: #fff;
+  padding: 0px 10px;
+}
+.icons a:hover{
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+ ul li h2{
+   font-size: 1.3rem;
+   text-align: left;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ ul li h4{
+     font-size: 1rem;
+     text-align: left;
+     font-weight: 100;
+ }
+
+
+ @media only screen and (max-width: 1135px) {
+    
+    .imgsrc img{
+        left: 50%;
+ 
+    }
+     
+   }
+
+   @media only screen and (max-width: 1025px) {
+    
+    .imgsrc img{
+        left: 40%;
+ 
+    }
+     
+   }
+
+  
+   @media only screen and (max-width: 934px) {
+    
+    .imgsrc img{
+        left: 30%;
+ 
+    }
+     
+   }
+   
+
+  
+   @media only screen and (max-width: 844px) {
+    
+    .imgsrc img{
+        left: 20%;
+ 
+    }
+     
+   }
+ @media only screen and (max-width: 767px) {
+    .profile{
+        width: 70vw;
+    }
+    .imgsrc img{
+        left: 70%;
+ 
+    }
+     
+   }
+
+   
+ @media only screen and (max-width: 636px) {
+    .profile{
+        width: 80vw;
+    }
+    .imgsrc img{
+        left: 60%;
+ 
+    }
+     
+   }
+
+   
+ @media only screen and (max-width: 502px) {
+    .profile{
+        width: 90vw;
+    }
+    .imgsrc img{
+        left: 40%;
+ 
+    }
+     
+   }
